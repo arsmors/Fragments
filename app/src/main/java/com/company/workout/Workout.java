@@ -25,9 +25,14 @@ public class Workout {
         this.description = description;
     }
 
+    public static Workout[] getWorkouts() {
+        return workouts;
+    }
+
     public String getName() {
 
         return name;
+
     }
 
     public void setName(String name) {
